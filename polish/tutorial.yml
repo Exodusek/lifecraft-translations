@@ -1,0 +1,293 @@
+pages:
+- >   
+  <content>
+    <icon key="ui_guide_mitosis"/>Witaj w uniwersum Lifecraft!
+    <break/>
+    <image path="tutorial/quickstart_1.png" scale="1" />
+    <endl/>
+    Zaczynasz jako organizm dryfujacy gdzies w przestrzeni.
+    <break/>
+    W końcu napotkasz przeciwnosci, bedziesz musial utrzymywac cieplo, walczyc z intruzami, takimi jak bakterie, oraz rozszerzac sie, aby moc ciagle znajdowac zasoby.<endl/><endl/>
+    Nie daj sie zniechecic nazwom przedmiotow i mechanikom!<break/><icon key="item_aminoacid_red"/>Aminokwasy to po prostu kulki, <icon key="item_tubulin_yellow"/>tubuliny to rurki, pomysl o tym w ten sposob, a wszystko bedzie jasne!<endl/><endl/><icon key="ui_icon_open_recipe_list"/>Widok przepisow w prawym dolnym rogu jest bardzo przydatny!<endl/>Uzywaj go, aby zobaczyc materialy potrzebne do tworzenia przedmiotow.<endl/>
+    Najedz kursorem na przedmioty, aby zobaczyc, jak dzialaja.
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_hand"/>Mozesz przesuwac sie po swiecie za pomoca klawiszy lub przesuwajac mysz w poblizu krawedzi ekranu (jesli jest wlaczone):<break/>
+    <p align="center">
+    <keycap action="pan_up" /><endl /><keycap action="pan_left" /><icon key="ui_guide_dot_tiny"/>
+    <keycap action="pan_down" /><icon key="ui_guide_dot_tiny"/><keycap action="pan_right" /><break/>
+    </p>
+    <icon key="ui_icon_zoom_in"/>Mozesz przyblizac i oddalac widok za pomoca (lub kolka myszy):<break/>
+    <p align="center">
+    <keycap action="zoom_in" longer="true" /><icon key="ui_guide_dot_tiny"/><keycap action="zoom_out" longer="true" /><break/>
+    </p>
+    Mozesz podnosic i upuszczac przedmioty za pomoca myszy. 
+    <endl/>
+    <image path="tutorial/quickstart_2.png" scale="1" />
+    <endl/>
+    Mozesz podniesc do 4 przedmiotow naraz, sprobuj teraz z niektorymi przedmiotami dryfujacymi na zewnatrz!
+    <endl/>
+  </content>
+
+- >
+  <content>
+    Niebieska pustka zawiera wiele przydatnych przedmiotow, ktore mozna wykorzystac do tworzenia materialow posrednich, struktur, energii, obrony i ekspansji.<endl /><endl />
+    Twoim pierwszym zadaniem jest zebranie zoltej podjednostki <icon key="item_subunit_yellow"/> z zewnatrz za pomoca myszy. Pamietaj, ze kazdy zasob mozna zbierac recznie.<endl /><endl />To moze sie przydac w wielu sytuacjach!<endl />
+    <endl />
+    Teraz upusc zolta podjednostke <icon key="item_subunit_yellow"/> gdzies na ziemi swojej komorki.<endl/>
+    <image path="tutorial/quickstart_3.png" scale="1" /><endl />
+    <endl />
+  </content>
+
+- >
+  <content>
+    <icon key="item_subunit_yellow"/> Wyszukaj na zewnatrz kolejna zolta podjednostke i chwyc ja.
+    <endl />
+    <image path="tutorial/quickstart_4.png" scale="1" />
+    <endl/>
+    <icon key="item_workbench"/> Teraz mozesz zlozyc swoja pierwsza strukture: warsztat!<endl/><endl/>
+    <icon key="item_subunit_yellow"/> Najedz druga zolta podjednostka na pierwsza <endl /> na ziemi, nacisnij E i voilà!<endl />
+    <image path="tutorial/quickstart_5.png" scale="1" />
+    <icon key="ui_guide_brain"/> Szybko zbieraj wiele przedmiotow, przeciagajac mysza wokol nich.<endl />
+    <image path="tutorial/quickstart_5_extra.png" scale="1" />
+    <break/> 
+    <endl />
+  </content> 
+
+- >  
+  <content>
+    <icon key="item_workbench"/>Warsztat sluzy do recznego skladania struktur, ktore beda pozniej uzywane do automatyzacji. Jest nieefektywny, ale przydatny! <endl/> <endl/>
+    Teraz podnies swiezo zlozony warsztat i umiesc go gdzies na ziemi za pomoca myszy.<endl />
+    <image path="tutorial/quickstart_6.png" scale="1" />
+    <endl />
+    Mozesz kliknac na budynki, aby otworzyc ich menu kontekstowe.<endl/>
+    Niektore budynki maja rowniez akcje przypisane do <keycap action="execute_first_action" /> i <keycap action="execute_second_action" /><break/>
+    <image path="tutorial/quickstart_3extra.png" scale="1" /><endl />
+  </content>
+  
+- >
+  <content>
+    Twoim kolejnym celem jest teraz zautomatyzowanie zbierania zasobow z zewnetrznego stosu zasobow, co bedzie wymagalo zbudowania wielu przedmiotow: <endl /><endl />
+    <icon key="ui_guide_dot"/> <icon key="item_microtubule"/> mikrotubule, ktore sa uzywane do transportu przedmiotow <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_picker"/> chwytaki, ktore sa uzywane do przenoszenia przedmiotow do i z struktur <break/>
+    <icon key="ui_guide_dot"/> <icon key="item_cytostome1x"/> cytostomy, ktore moga zasysac przedmioty z zewnatrz <endl />
+    <image path="tutorial/quickstart_1extra.png" scale="1" />
+    <endl />
+    Prymitywne struktury z czasem ulegna zniszczeniu przez utlenianie.<endl />Sa rowniez wolne i nieefektywne, pozniej zastapisz je ulepszonymi wersjami. Wiecej na ten temat pozniej!<endl /><endl />
+  </content>
+
+- >
+  <content>
+    Zacznijmy tworzyc struktury potrzebne do podstawowej automatyzacji!<endl /><endl />
+    W liscie przepisow, ktora znajduje sie w prawym dolnym rogu ekranu, mozesz najechac na dostepne przepisy i zobaczyc ich materialy, najedzmy na cytostome <icon key="item_cytostome1x"/><endl />
+    <recipe key="cytostome1x" compact="true" />To sa materialy potrzebne do jej zbudowania.
+    
+    Tubuliny to material posredni, ktory jest uzywany do tworzenia wielu podstawowych struktur.<break/>
+    Warsztat jest przydatny, poniewaz moze tworzyc wszystkie posrednie kroki zasobow, uzywajac tylko podstawowych materialow:<endl /><endl />
+    <p align="center"><icon key="item_aminoacid_blue"/><icon key="item_aminoacid_green"/><icon key="item_aminoacid_red"/><icon key="item_aminoacid_yellow"/><endl/><endl /></p>
+    Umiesc wymagane aminokwasy w warsztacie, kliknij na niego i wybierz struktury do zlozenia.<break/>
+    Mozesz rowniez dodawac wiele tworzeń do kolejki w warsztacie, o ile jest wystarczajaco duzo miejsca!
+    <p align="center">
+
+    </p>
+
+  </content>
+
+- >
+  <content>
+    <icon key="item_cytostome1x"/>Teraz podnies stworzona cytostome i umiesc ja na scianie obok stosu aminokwasow <icon key="item_aminoacid_red"/>.
+    <break/>
+    <image path="tutorial/quickstart_8.png" scale="1" />
+    <endl />
+    Zobaczysz, jak cytostoma zaczyna dzialac i powoli zasysa przedmiot. Mozesz recznie chwycic przedmiot z cytostomy za pomoca myszy.<break/>
+    Cytostoma znajduje sie wysoko na scianie komorki, ale zasysa na ziemi wewnatrz komorki.<break/>
+    <icon key="ui_icon_toggle_buildings_on"/>Aby zobaczyc jej podstawe zasysajaca (gdzie podlaczysz chwytak), mozesz wlaczyc "przelaczanie budynkow" na dolnym pasku.<break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_microtubule"/>Teraz potrzebujemy sposobu na automatyczne transportowanie przedmiotow z cytostomy. <endl /><endl />
+    Mikrotubule sa jak male szyny, ktore moga transportowac przedmioty w komorce.
+    Zbudujmy nasze pierwsze mikrotubule.
+    Zbierz wymagane materialy i dodaj je do kolejki tworzenia w warsztacie:<break/><endl />
+    <p align="center"><icon key="item_tubulin_red"/><icon key="item_tubulin_red"/><icon key="item_microtubule_primitive"/><break/></p>
+    Poczekaj, az wynik bedzie gotowy, podnies go i upusc na ziemie. Teraz kliknij upuszczona mikrotubule.<break/>
+    
+    Co sie stalo? Mikrotubula zniknela!<break/>
+    To dlatego, ze mikrotubule sa automatycznie chowane do magazynu, aby mozna bylo ich uzywac za pomoca specjalnego narzedzia.<endl/><endl/>
+    <image path="tutorial/quickstart_9.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Teraz przelacz sie na narzedzie do umieszczania mikrotubul za pomoca <keycap action="switch_tool_microtubule_metatool" />, zobaczysz, ze istnieje wiele ich typow, 
+    ale na razie dostepny jest tylko pierwszy.<break/>
+    Prymitywna mikrotubula jest wolniejsza, musisz przeprowadzic badania, aby uzyskac lepsze wersje.<break/>
+    <p align="center"><icon key="item_microtubule"/><icon key="item_microtubule_advanced"/><break/></p>
+    Kliknij lewym przyciskiem myszy, aby umiescic mikrotubule obok podstawy cytostomy, przygotowujac trase dla przedmiotow.<break/>
+    <image path="tutorial/quickstart_10.png" scale="1" />
+    <endl />
+    Mikrotubule mozna usuwac za pomoca myszy.
+
+  </content>
+  
+- >
+  <content>
+    <icon key="item_picker_primitive" />Teraz potrzebujemy chwytaka, ktory jest uzywany do przenoszenia przedmiotow do i z struktur.<endl/>
+    Zbierz materialy i dodaj je do kolejki tworzenia w warsztacie:<endl/><recipe key="picker_primitive" compact="true" /><endl/>
+    Gdy bedzie gotowy, umiesc chwytak obok podstawy cytostomy.<break/>
+    Za pomoca <keycap action="execute_first_action" /> i <keycap action="execute_second_action" /> mozesz obracac lub odwracac chwytak. 
+    Skonfiguruj go tak, aby pobieral z cytostomy (cienka czesc chwytaka idzie pod podstawe cytostomy).<endl/>
+    <image path="tutorial/quickstart_11.png" scale="1" />
+    <endl/>
+
+    <icon key="ui_icon_toggle_buildings_on"/><icon key="ui_icon_toggle_walls_on"/>Aby uzyskac lepszy widok podczas umieszczania struktur, mozesz wlaczyc "przelaczanie budynkow", co da ci jasniejszy, plaski widok mapy.
+  </content>
+
+- >
+  <content>
+    <icon key="item_tubulin_red" />Czas zautomatyzowac produkcje twoich pierwszych bialek!<break/>
+    <icon key="item_ribosome" />Odbywa sie to za pomoca rybosomu, ktory jest w stanie tworzyc materialy posrednie.
+
+    Zbierz wymagane przedmioty do stworzenia rybosomu w warsztacie.<break/><icon key="ui_icon_open_recipe_list"/>Pamietaj, aby uzywac widoku przepisow jako legendy!<break/><endl />
+    <p align="center"><icon key="item_subunit_red"/><icon key="item_subunit_red"/><icon key="item_ribosome"/><break/></p>
+
+    Teraz umiesc rybosom w poblizu mikrotubul, ktore wczesniej umiesciles.<break/>
+    <icon key="ui_icon_destroy"/>Mozesz usunac dowolna umieszczona strukture za pomoca narzedzia do niszczenia struktur.
+    <icon key="ui_icon_oxidation_usages"/>Utlenione struktury nie zwroca przedmiotu.<endl/>
+    <image path="tutorial/quickstart_12.png" scale="1" />
+    <break/>
+
+
+  </content>
+
+- >
+  <content>
+    Musimy podlaczyc rybosom do mikrotubul.<endl />
+    Stworz kolejny prymitywny chwytak <icon key="item_picker_primitive" /> i umiesc go tak, abys mial pelna linie transportowa od cytostomy do rybosomu.<endl />
+    <image path="tutorial/quickstart_13.png" scale="1" />
+    <endl />
+
+    Teraz nacisnij <keycap action="execute_first_action" /> na rybosomie, aby skonfigurowac go do produkcji czerwonych tubulin <icon key="item_tubulin_red" /> i obserwuj, jak twoj pierwszy rybosom pracuje!<endl /><endl />
+    <icon key="item_microtubule"/>Mikrotubula idzie na podniesiona czesc chwytaka, gdzie znajduje sie strzalka chwytaka. Dolna, cieńsza czesc chwytaka musi znajdowac sie pod strukturami.<endl /><endl />
+    <icon key="item_picker_primitive"/>Kierunek strzalki chwytaka okresla, czy chwytak wklada, czy wyprowadza przedmioty ze struktury.
+    
+
+  </content>
+
+- >
+  <content>
+    Teraz, gdy nauczyles sie podstaw, czas na ulepszenia!<endl />
+    Zautomatyzujmy zbieranie zoltych aminokwasow <icon key="item_aminoacid_yellow" /> i produkcje zoltych tubulin <icon key="item_tubulin_yellow" />, wykonujac te same operacje.
+    <break/>
+    <image path="tutorial/quickstart_14.png" scale="1" />
+    <endl />
+
+    W tym momencie organizm sam syntetyzuje zarowno czerwone, jak i zolte tubuliny.<break/>
+    <icon key="ui_icon_toggle_object_overlay_on" />Aby zobaczyc, jakie przepisy tworzenia sa obecnie ustawione w strukturach, mozesz wlaczyc opcje "przelaczanie informacji o zawartosci obiektow".
+  </content>
+  
+- >
+  <content>
+    Zautomatyzujmy produkcje mikrotubul <icon key="item_microtubule_primitive" /> i chwytakow. <icon key="item_picker_primitive" /><break/>
+    <icon key="item_assembler" />Aby to zrobic, musimy stworzyc 2x asemblery. <break/>
+    <icon key="ui_icon_open_evolution_view" />Ale nadal nie mozemy ich stworzyc, poniewaz musimy odblokowac przepis na asembler w widoku ewolucji.<break/>
+    <image path="tutorial/quickstart_17a.png" scale="1" />
+    <endl />
+    <icon key="item_evolver"/>Aby odkrywac nowe przepisy, musimy zbudowac ewolwer, stworzmy go i umiescmy gdzies na ziemi.
+  </content>
+
+- >
+  <content>
+    Ewolwer zuzywa material genetyczny zwany nukleotydami, aby odkrywac nowe przepisy.<break/>
+    <p align="center"><icon key="item_adenine"/><icon key="item_thymine"/><icon key="item_guanine"/><icon key="item_cytosine"/><break/></p>
+    Otworz widok ewolucji za pomoca <keycap action="open_evolution_view" />, wyszukaj <p color="#f5e042">Produkcja wewnatrzkomorkowa</p> i rozpocznij jego badanie.<break/>
+    <image path="tutorial/quickstart_16.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="item_thymine"/>Teraz nakarm ewolwer wymaganymi nukleotydami, ktore mozna zebrac z pustki. Poczekaj, az badanie sie zakończy.<break/>
+    <icon key="item_evolver" />Ewolwer akceptuje tylko jeden przedmiot na raz, ale mozesz zbudowac wiecej ewolwerow dla wiekszej efektywnosci.<break/>
+    <image path="tutorial/quickstart_18.png" scale="1" />
+    <endl />
+    Mozesz sprawdzic status, najechawszy na ewolucje w pasku stanu.<endl />
+    <image path="tutorial/quickstart_18b.png" scale="1" />
+    <break/>
+  </content>
+
+- >
+  <content>
+    Dzieki nowo zdobytej ewolucji mozesz teraz:<break/>
+
+    Stworzyc asemblery <icon key="item_assembler" /> <break/>
+    Umiescic je w poblizu istniejacych rybosomow <icon key="item_ribosome" /> <break/>
+    Zakończyc podlaczanie wszystkiego za pomoca wiecej mikrotubul <icon key="item_microtubule" /> i chwytakow <icon key="item_picker" /> <endl />
+    Skonfigurowac <keycap action="execute_first_action" /> asemblery do produkcji mikrotubul <icon key="item_microtubule_primitive" /> i chwytakow. <icon key="item_picker_primitive" /><endl />
+    <image path="tutorial/quickstart_19.png" scale="1" />
+    <endl />
+    Sugerujemy zbudowanie twoich pierwszych rybosomow i asemblerow oraz zautomatyzowanie tworzenia, gdy tylko sie z tym zapoznasz!<endl />
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_oxidation_usages"/>Z czasem prymitywne budynki ulegna utlenieniu, stajac sie nieoperacyjne.<break/>
+    <icon key="item_cytostome1x"/><icon key="item_picker_primitive"/>Aby zastapic utleniony chwytak lub cytostome, po prostu zbuduj kolejny i umiesc go na starszym.<endl />
+
+    <image path="tutorial/quickstart_oxidation.png" scale="1" />
+
+    <icon key="item_diffuser"/>Mozesz rowniez zbudowac dyfuzory przedmiotow, ktore, jesli zostana nakarmione odpowiednim przedmiotem, automatycznie zastapia utlenione odpowiedniki w ich poblizu.<endl />
+
+    Aby przezwyciezyc ten problem, musisz zbadac ulepszone struktury, ktore nie beda juz ulegac utlenianiu.<endl /><endl />
+
+    <icon key="item_cytostome2x" /> Cytostoma to ulepszona wersja prymitywnej cytostomy, szybsza i z podwojna zdolnoscia zasysania<endl /><endl />
+    <icon key="item_picker" /> Czarne chwytaki nie ulegaja utlenianiu i moga byc tworzone w wariantach filtrujacych kolory i materialy<endl /><endl />
+
+    <icon key="item_atp" /> Ulepszone struktury potrzebuja energii do dzialania!<endl /><endl />
+
+    <break/>
+  </content>
+
+- >
+  <content>
+    <icon key="ui_icon_energy_yellow" />Gdy pojdziesz dalej w badaniach, zauwazysz, ze wiele przedmiotow wymaga energii do dzialania.<endl /><endl />
+
+    <icon key="item_energy_supplier_mk1" />Po zbadaniu wymaganych wezlow mozesz zaczac budowac siec energii za pomoca prymitywnych dostawcow energii, ktore zasilaja struktury w ich zasiegu.<endl /><endl />
+    <icon key="item_energy_supplier_mk2" />Ulepszeni dostawcy beda dostarczac energie w wiekszym zasiegu.<endl /><endl />
+
+    <icon key="item_atp"/>Aby dostawcy energii dzialali, musisz karmic ich czasteczkami ATP (znajdziesz je na zewnatrz w pustce).<endl />
+    <icon key="item_adp"/>Gdy ATP zostanie rozladowane, dostawcy wyprowadza je w postaci ADP.<endl />Pomysl o tym jak o baterii, wyrzuc stara, wloz nowa!<endl /><endl />
+
+    <icon key="item_energy_pole"/>Aby rozszerzyc zasieg miedzy dwoma dostawcami energii, uzyj slupow energetycznych! <endl /><endl />
+    <icon key="ui_icon_toggle_power_overlay_on"/>Znacznie rozszerza zasieg bez zuzywania zadnych zasobow.
+
+    
+    <break/>
+  </content>
+
+- >
+  <content>
+    Teraz czas na dalsze odkrywanie dostepnych ewolucji i rozszerzanie twojego systemu logistycznego samodzielnie! <break/>Pamietaj tylko <icon key="ui_warning_sign_red" /> <endl />
+    <image path="tutorial/quickstart_20b.png" scale="1" />
+    <endl />
+    <icon key="ui_icon_temperature" />Temperatura na zewnatrz powoli spada i bedziesz potrzebowac sposobu na generowanie ciepla za pomoca mitochondrium <icon key="item_mitochondrial_membrane" /> i rozdzielaczy <icon key="item_decoupler" /> <endl /><endl />
+    <icon key="item_bacterial_vegetation_bacillus_green"/> Na zewnatrz w ciemnosci pelzaja bakterie, badz przygotowany z dyfuzorami <icon key="item_diffuser" /> i wyrzutniami <icon key="item_launcher1x" /> <break/>
+    <icon key="ui_icon_chunk_planner"/> Zasoby w końcu sie wyczerpia, bedziesz musial sie rozszerzac, aby znalezc nowe.
+    <break/>
+  </content> 
+
+- >
+  <content>
+    Tutorial kończy sie tutaj! W przypadku jakichkolwiek watpliwosci:<break/>
+    <icon key="ui_guide_dot"/> skonsultuj sie z przewodnikiem w grze za pomoca <keycap action="open_game_guide" /><break/>
+    <icon key="ui_guide_dot"/> ukończ cele, sprawdz widok podrozy <keycap action="open_journey_view" /> i liste celow <keycap action="open_goal_list" /><break/>
+    <icon key="ui_guide_dot"/> jesli masz trudnosci, przyjdz na naszego Discorda, gdzie znajdziesz pomoc!<endl />
+    <image path="tutorial/quickstart_22.png" scale="1" /><endl/>
+    Ta gra jest w fazie Early Access, wiec moze byc jeszcze niedopracowana. Ale jesli nadal to czytasz, twoja cierpliwosc swieci, czeka cie uczta!<break/>Wiele pomyslow zostanie zaimplementowanych w przyszlosci w miare rozwoju gry. Mamy nadzieje, ze spodoba ci sie wspaniala podroz, ktora oferuje Lifecraft!
+    <break/>
+  </content>
